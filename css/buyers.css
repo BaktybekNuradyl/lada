@@ -1,0 +1,58 @@
+.modal {
+  background: #f7f8f8;
+  height: 85vh;
+  padding: 150px 0 0;
+  overflow: hidden;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 80px;
+}
+.modal-content__item {
+  display: flex;
+}
+
+#podbor,
+#vygoda,
+#korporat,
+#service,
+#podderjka,
+#zapchasti,
+#service-obsl,
+#melko-remont,
+#kuzov-remont,
+#antikoroz,
+#diagnostik,
+#shinomontaj,
+#agregat-remont,
+#razval,
+#ustanovka,
+#orig,
+#sport1,
+#pokupka {
+  flex-direction: column;
+}
+.modal-list {
+  margin-right: 100px;
+  border-right: 1px solid #d9dcdc;
+  text-align: end;
+}
+
+.modal-list__item {
+  padding: 20px 50px 20px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #848e98;
+}
+.modal-list__item.active {
+  color: #ec7530;
+  border-right: 3px solid #ec7530;
+  transition: all ease 0.5s;
+}
+.modal-list__item:hover {
+  color: #ec7530;
+  transition: all ease 0.5s;
+}

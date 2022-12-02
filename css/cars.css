@@ -1,0 +1,2382 @@
+/*    section   cars   */
+.granta-sedan__main {
+  position: relative;
+}
+
+.cars-desc {
+  position: absolute;
+  bottom: 80px;
+  left: 9em;
+  color: white;
+}
+
+.cars-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #d9dcdc;
+  text-transform: uppercase;
+}
+
+.cars-subtitle {
+  max-width: 550px;
+  font-size: 49px;
+  line-height: 1.2;
+  white-space: pre-line;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.bort-s {
+  max-width: 570px;
+}
+
+.cars-price {
+  color: #e37639;
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/*   cars   main  slide       */
+
+.granta-sedan__wrapper {
+  overflow: hidden;
+  display: flex;
+}
+
+.granta-sedan__item {
+  background-image: url("../img/cars/granta-sedan/granta-sedan-frontview.jpg");
+}
+.granta-sedan__item-back {
+  background-image: url("../img/cars/granta-sedan/granta-sedan-backview.jpg");
+}
+
+.granta-sedan__item-int {
+  background-image: url("../img/cars/granta-sedan/lada-sedan-interiors.jpg");
+}
+
+.granta-sedan__item-com {
+  background-image: url("../img/cars/granta-sedan/komfort-salon.jpg");
+}
+
+.granta-liftbek__item {
+  background-image: url("../img/cars/granta-liftbek/exterier_granta-liftbek.jpg");
+}
+.granta-liftbek__item-back {
+  background-image: url("../img/cars/granta-liftbek/exterier_back-liftbek.jpg");
+}
+
+.granta-hatchbek__item {
+  background-image: url("../img/cars/granta-hatchbek/htachbek-front.jpg");
+}
+.granta-hatchbek__item-back {
+  background-image: url("../img/cars/granta-hatchbek/hatchbek-back.jpg");
+}
+
+.granta-universal__item {
+  background-image: url("../img/cars/granta-universal/univ-front.jpg");
+}
+.granta-universal__item-back {
+  background-image: url("../img/cars/granta-universal/univ-back.jpg");
+}
+
+.granta-cross__item {
+  background-image: url("../img/cars/granta-cross/cross-front.jpg");
+}
+.granta-cross__item-back {
+  background-image: url("../img/cars/granta-cross/cross-back.jpg");
+}
+.granta-cross__item-int {
+  background-image: url("../img/cars/granta-cross/inter-cross.jpg");
+}
+.granta-cross__item-com {
+  background-image: url("../img/cars/granta-cross/cross-komfort.jpg");
+}
+
+.granta-dactive__item {
+  background-image: url("../img/cars/granta-d-active/dactive-front.jpg");
+}
+.granta-dactive__item-back {
+  background-image: url("../img/cars/granta-d-active/dactive-back.jpg");
+}
+.granta-dactive__item-int {
+  background-image: url("../img/cars/granta-d-active/dactive-int.jpg");
+}
+.granta-dactive__item-com {
+  background-image: url("../img/cars/granta-d-active/dactive-comf.jpg");
+}
+
+.vesta-sedan__item {
+  background-image: url("../img/cars/vesta-sedan/vesta-front.jpg");
+}
+.vesta-sedan__item-back {
+  background-image: url("../img/cars/vesta-sedan/vesta-back.jpg");
+}
+.vesta-sedan__item-int {
+  background-image: url("../img/cars/vesta-sedan/vesta-inter.jpg");
+}
+.vesta-sedan__item-com {
+  background-image: url("../img/cars/vesta-sedan/vesta-komf.jpg");
+}
+
+.vesta-cross__item {
+  background-image: url("../img/cars/vesta-cross/vestacross-front.jpg");
+}
+.vesta-cross__item-back {
+  background-image: url("../img/cars/vesta-cross/vestacross-back.jpg");
+}
+.vesta-cross__item-int {
+  background-image: url("../img/cars/vesta-cross/vestacross-int.jpg");
+}
+.vesta-cross__item-com {
+  background-image: url("../img/cars/vesta-cross/vestacross-komf.jpg");
+}
+
+.vesta-sw__item {
+  background-image: url("../img/cars/vesta-sw/vesta-swfront.jpg");
+}
+.vesta-sw__item-back {
+  background-image: url("../img/cars/vesta-sw/vestsw-back.jpg");
+}
+
+.vesta-swcross__item {
+  background-image: url("../img/cars/vestasw-cross/vswcross-front.jpg");
+}
+.vesta-swcross__item-back {
+  background-image: url("../img/cars/vestasw-cross/vsw-back.jpg");
+}
+
+.vesta-cng__item {
+  background-image: url("../img/cars/vesta-cng/cng-front.jpg");
+}
+
+.vesta-cng__item-int {
+  background-image: url("../img/cars/vesta-cng/cng-int.jpg");
+}
+.vesta-cng__item-com {
+  background-image: url("../img/cars/vesta-cng/cng-komf.jpg");
+}
+
+.vesta-sport__item {
+  background-image: url("../img/cars/vesta-sport/vsport-front.jpg");
+}
+.vesta-sport__item-back {
+  background-image: url("../img/cars/vesta-sport/vsport-back.jpg");
+}
+.vesta-sport__item-int {
+  background-image: url("../img/cars/vesta-sport/vsport-inter.jpg");
+}
+.vesta-sport__item-com {
+  background-image: url("../img/cars/vesta-sport/vsport-komf.jpg");
+}
+
+.xray__item {
+  background-image: url("../img/cars/xray/xray-front.jpg");
+}
+
+.xray__item-int {
+  background-image: url("../img/cars/xray/xray-int.jpg");
+}
+
+.xray__item-com {
+  background-image: url("../img/cars/xray/xray-komf.jpg");
+}
+
+.xray-cross__item {
+  background-image: url("../img/cars/xray-cross/xcross-front.jpg");
+}
+
+.xray-cross__item-int {
+  background-image: url("../img/cars/xray-cross/xr-int.jpg");
+}
+
+.xray-cross__item-com {
+  background-image: url("../img/cars/xray-cross/xr-komf.jpg");
+}
+
+.largus-universal__item {
+  background-image: url("../img/cars/largus-universal/lu-front.jpg");
+}
+.largus-universal__item-back {
+  background-image: url("../img/cars/largus-universal/lu-back.jpg");
+}
+
+.largus-universal__item-int {
+  background-image: url("../img/cars/largus-universal/lu-inter.jpg");
+}
+
+.largus-universal__item-com {
+  background-image: url("../img/cars/largus-universal/lu-komf.jpg");
+}
+
+.largus-universal__item-comback {
+  background-image: url("../img/cars/largus-universal/lu-komf-back.jpg");
+}
+
+.largus-cross__item {
+  background-image: url("../img/cars/largus-cross/lc-fronyt.jpg");
+}
+
+.largus-cross__item-back {
+  background-image: url("../img/cars/largus-cross/lc-bakc.jpg");
+}
+
+.largus-cross__item-int {
+  background-image: url("../img/cars/largus-cross/l-inter.jpg");
+}
+
+.niva-travel__item {
+  background-image: url("../img/cars/niva-travel/nty-front.jpg");
+}
+
+.niva-travel__item-back {
+  background-image: url("../img/cars/niva-travel/back.jpg");
+}
+
+.niva-travel__item-int {
+  background-image: url("../img/cars/niva-travel/inter.jpg");
+}
+.niva-travel__item-com {
+  background-image: url("../img/cars/niva-travel/komf.jpg");
+}
+
+.niva-legend3__item {
+  background-image: url("../img/cars/niva-legend3/front.jpg");
+}
+
+.niva-legend3__item-back {
+  background-image: url("../img/cars/niva-legend3/interback.jpg");
+}
+
+.niva-legend3__item-int {
+  background-image: url("../img/cars/niva-legend3/inter.jpg");
+}
+.niva-legend3__item-com {
+  background-image: url("../img/cars/niva-legend3/komf.jpg");
+}
+
+.niva-legend5__item {
+  background-image: url("../img/cars/niva-legend5/front.jpg");
+}
+
+.niva-bronto__item {
+  background-image: url("../img/cars/niva-bronto/front.jpg");
+}
+
+.niva-bronto__item-int {
+  background-image: url("../img/cars/niva-bronto/const.jpg");
+}
+.niva-bronto__item-com {
+  background-image: url("../img/cars/niva-bronto/komf.jpg");
+}
+
+.largus-furgon__item {
+  background-image: url("../img/cars/largus-furgon/lf-front.jpg");
+}
+.largus-furgon__item-back {
+  background-image: url("../img/cars/largus-furgon/back.jpg");
+}
+
+.largus-furgon__item-int {
+  background-image: url("../img/cars/largus-furgon/inter.jpg");
+}
+
+.largus-furgon__item-com {
+  background-image: url("../img/cars/largus-furgon/komf.jpg");
+}
+
+.granta-bort__item {
+  background-image: url("../img/cars/granta-bort/front.jpg");
+}
+
+.granta-bort__item-int {
+  background-image: url("../img/cars/granta-bort/inter.jpg");
+}
+
+.granta-furgon__item {
+  background-image: url("../img/cars/granta-furgon/furgon.jpg");
+}
+
+.granta-furgon__item-int {
+  background-image: url("../img/cars/granta-furgon/inter.jpg");
+}
+
+.granta-school__item {
+  background-image: url("../img/cars/granta-school/front.jpg");
+}
+
+.granta-school__item-int {
+  background-image: url("../img/cars/granta-school/inter.jpg");
+}
+
+.granta-school__item-com {
+  background-image: url("../img/cars/granta-school/komf.jpg");
+}
+
+.niva-furgon__item {
+  background-image: url("../img/cars/niva-furgon/front.jpg");
+}
+.niva-bort__item {
+  background-image: url("../img/cars/niva-bort/front.jpg");
+}
+
+.granta-sedan__item,
+.granta-sedan__item-back,
+.granta-sedan__item-int,
+.granta-sedan__item-com,
+.granta-sedan__security,
+.granta-liftbek__item,
+.granta-liftbek__item-back,
+.granta-liftbek__security,
+.granta-hatchbek__item,
+.granta-hatchbek__item-back,
+.granta-hatchbek__security,
+.granta-universal__item,
+.granta-universal__item-back,
+.granta-universal__security,
+.granta-cross__item,
+.granta-cross__item-back,
+.granta-cross__security,
+.granta-cross__item-int,
+.granta-cross__item-com,
+.granta-dactive__item,
+.granta-dactive__item-back,
+.granta-dactive__security,
+.granta-dactive__item-int,
+.granta-dactive__item-com,
+.vesta-sedan__item,
+.vesta-sedan__item-back,
+.vesta-sedan__security,
+.vesta-sedan__item-int,
+.vesta-sedan__item-com,
+.vesta-cross__item,
+.vesta-cross__item-back,
+.vesta-cross__security,
+.vesta-cross__item-int,
+.vesta-cross__item-com,
+.vesta-sw__item,
+.vesta-sw__item-back,
+.vesta-sw__security,
+.vesta-swcross__item,
+.vesta-swcross__item-back,
+.vesta-swcross__security,
+.vesta-cng__item,
+.vesta-cng__security,
+.vesta-cng__item-int,
+.vesta-cng__item-com,
+.vesta-sport__item,
+.vesta-sport__item-back,
+.vesta-sport__security,
+.vesta-sport__item-int,
+.vesta-sport__item-com,
+.xray__item,
+.xray__item-int,
+.xray__item-com,
+.xray__security,
+.xray-cross__item,
+.xray-cross__item-int,
+.xray-cross__item-com,
+.xray-cross__security,
+.xray-cross__item-cons,
+.largus-universal__item,
+.largus-universal__item-back,
+.largus-universal__item-int,
+.largus-universal__item-com,
+.largus-universal__item-comback,
+.largus-universal__security,
+.largus-cross__item,
+.largus-cross__item-back,
+.largus-cross__item-int,
+.largus-cross__security,
+.niva-travel__item,
+.niva-travel__item-back,
+.niva-travel__item-int,
+.niva-travel__item-com,
+.niva-travel__item-cons,
+.niva-travel__security,
+.niva-legend3__item,
+.niva-legend3__item-back,
+.niva-legend3__item-int,
+.niva-legend3__item-com,
+.niva-legend3__security,
+.niva-legend5__item,
+.niva-legend5__security,
+.niva-bronto__item,
+.niva-bronto__item-int,
+.niva-bronto__item-com,
+.niva-bronto__security,
+.largus-furgon__item,
+.largus-furgon__item-back,
+.largus-furgon__item-int,
+.largus-furgon__item-com,
+.largus-furgon__security,
+.granta-bort__item,
+.granta-bort__item-int,
+.granta-furgon__item,
+.granta-furgon__item-int,
+.granta-school__item,
+.granta-school__item-int,
+.granta-school__item-com,
+.niva-furgon__item,
+.niva-furgon__item-int,
+.niva-bort__item,
+.niva-bort__item-int {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+  height: 110%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  width: 1422px;
+  padding-left: 90px;
+  padding-top: 110px;
+}
+.granta-sedan__security {
+  background-image: url("../img/cars/granta-sedan/lada-sedan-security.jpg");
+}
+.granta-liftbek__security {
+  background-image: url("../img/cars/granta-liftbek/security-liftbek.jpg");
+}
+.granta-hatchbek__security {
+  background-image: url("../img/cars/granta-hatchbek/security-hatchbek.jpg");
+}
+.granta-universal__security {
+  background-image: url("../img/cars/granta-universal/security-univ.jpg");
+}
+.granta-cross__security {
+  background-image: url("../img/cars/granta-cross/cross-secur.jpg");
+}
+.granta-dactive__security {
+  background-image: url("../img/cars/granta-d-active/dactive-secur.jpg");
+}
+.vesta-sedan__security {
+  background-image: url("../img/cars/vesta-sedan/vesta-sedan-secur.jpg");
+}
+.vesta-cross__security {
+  background-image: url("../img/cars/vesta-cross/vestacross-secur.jpg");
+}
+.vesta-sw__security {
+  background-image: url("../img/cars/vesta-sw/vestasw-secur.png");
+}
+.vesta-swcross__security {
+  background-image: url("../img/cars/vestasw-cross/vesta-sw-secur.jpg");
+}
+.vesta-cng__security {
+  background-image: url("../img/cars/vesta-cng/cng-secur.jpg");
+  padding-bottom: 190px;
+}
+.vesta-sport__security {
+  background-image: url("../img/cars/vesta-sport/vs[port-secur.jpg");
+}
+.xray__security {
+  background-image: url("../img/cars/xray/xray-secur.jpg");
+}
+
+.xray-cross__security {
+  background-image: url("../img/cars/xray-cross/xr-secur.jpg");
+}
+
+.xray-cross__item-cons {
+  background-image: url("../img/cars/xray-cross/xr-differens.jpg");
+  width: 100%;
+}
+
+.largus-universal__security {
+  background-image: url("../img/cars//largus-universal/lu-secur.jpg");
+}
+
+.largus-cross__security {
+  background-image: url("../img/cars/largus-cross/lc-security.jpg");
+}
+
+.niva-travel__security {
+  background-image: url("../img/cars/niva-travel/secur.jpg");
+}
+.niva-travel__item-cons {
+  background-image: url("../img/cars/niva-travel/const.jpg");
+  width: 100%;
+}
+
+.niva-legend3__security {
+  background-image: url("../img/cars/niva-legend3/secur.png");
+}
+
+.niva-legend5__security {
+  background-image: url("../img/cars/niva-legend5/secur.png");
+}
+
+.niva-bronto__security {
+  background-image: url("../img/cars/niva-bronto/secur.jpg");
+}
+
+.largus-furgon__security {
+  background-image: url("../img/cars/largus-furgon/secur.jpg");
+}
+
+.niva-furgon__item-int {
+  background-image: url("../img/cars/niva-furgon/inter.jpg");
+  width: 100%;
+}
+
+.niva-bort__item-int {
+  background-image: url("../img/cars/niva-bort/inter.jpg");
+  width: 100%;
+}
+
+.niva-f {
+  width: 100%;
+}
+
+.granta-sedan__item span,
+.granta-sedan__item-back span,
+.granta-sedan__item-int span,
+.granta-sedan__item-com span,
+.granta-liftbek__item span,
+.granta-liftbek__item-back span,
+.granta-hatchbek__item span,
+.granta-hatchbek__item-back span,
+.granta-universal__item span,
+.granta-universal__item-back span,
+.granta-cross__item span,
+.granta-cross__item-back span,
+.granta-cross__item-int span,
+.granta-cross__item-com span,
+.granta-dactive__item span,
+.granta-dactive__item-back span,
+.granta-dactive__item-int span,
+.granta-dactive__item-com span,
+.vesta-sedan__item span,
+.vesta-sedan__item-back span,
+.vesta-sedan__item-int span,
+.vesta-sedan__item-com span,
+.vesta-cross__item span,
+.vesta-cross__item-back span,
+.vesta-cross__item-int span,
+.vesta-cross__item-com span,
+.vesta-sw__item span,
+.vesta-sw__item-back span,
+.vesta-swcross__item span,
+.vesta-swcross__item-back span .vesta-cng__item span,
+.vesta-cng__item-int span,
+.vesta-cng__item-com span,
+.vesta-sport__item span,
+.vesta-sport__item-back span,
+.vesta-sport__item-int span,
+.vesta-sport__item-com span,
+.xray__item span,
+.xray__item-back span,
+.xray__item-int span,
+.xray__item-com span,
+.xray-cross__item span,
+.xray-cross__item-back span,
+.xray-cross__item-int span,
+.xray-cross__item-com span,
+.xray-cross__item-cons span,
+.largus-universal__item span,
+.largus-universal__item-back span,
+.largus-universal__item-int span,
+.largus-universal__item-com span,
+.largus-universal__item-comback span,
+.largus-cross__item span,
+.largus-cross__item-back span,
+.largus-cross__item-int span,
+.niva-travel__item span,
+.niva-travel__item-back span,
+.niva-travel__item-int span,
+.niva-travel__item-com span,
+.niva-travel__item-cons span,
+.niva-legend3__item span,
+.niva-legend3__item-back span,
+.niva-legend3__item-int span,
+.niva-legend3__item-com span,
+.niva-legend3__security span,
+.niva-legend5__item span,
+.niva-legend5__security span,
+.niva-bronto__item span,
+.niva-bronto__item-int span,
+.niva-bronto__item-com span,
+.niva-bronto__security span,
+.largus-furgon__item span,
+.largus-furgon__item-back span,
+.largus-furgon__item-int span,
+.largus-furgon__item-com span,
+.granta-bort__item span,
+.granta-bort__item-int span,
+.granta-furgon__item span,
+.granta-furgon__item-int span,
+.granta-school__item span,
+.granta-school__item-int span,
+.granta-school__item-com span,
+.niva-furgon__item span,
+.niva-furgon__item-int span,
+.niva-bort__item span,
+.niva-bort__item-int span {
+  position: absolute;
+  bottom: 18px;
+  cursor: pointer;
+}
+
+.granta-sedan__item-2 {
+  background-color: #221f20;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 565px;
+}
+
+.granta-sedan__item p,
+.granta-sedan__item-back p,
+.granta-sedan__item-int p,
+.granta-sedan__item-com p,
+.granta-sedan__security-item p,
+.granta-liftbek__item p,
+.granta-liftbek__item-back p,
+.granta-hatchbek__item p,
+.granta-hatchbek__item-back p,
+.granta-universal__item p,
+.granta-universal__item-back p,
+.granta-cross__item p,
+.granta-cross__item-back p,
+.granta-cross__item-int p,
+.granta-cross__item-com p,
+.granta-dactive__item p,
+.granta-dactive__item-back p,
+.granta-dactive__item-int p,
+.granta-dactive__item-com p,
+.vesta-sedan__item p,
+.vesta-sedan__item-back p,
+.vesta-sedan__item-int p,
+.vesta-sedan__item-com p,
+.vesta-cross__item p,
+.vesta-cross__item-back p,
+.vesta-cross__item-int p,
+.vesta-cross__item-com p,
+.vesta-sw__item p,
+.vesta-sw__item-back p,
+.vesta-swcross__item p,
+.vesta-swcross__item-back p,
+.vesta-cng__item p,
+.vesta-cng__item-int p,
+.vesta-cng__item-com p,
+.vesta-sport__item p,
+.vesta-sport__item-back p,
+.vesta-sport__item-int p,
+.vesta-sport__item-com p,
+.xray__item p,
+.xray__item-int p,
+.xray__item-com p,
+.xray__security-item p,
+.xray-cross__item-cons p,
+.xray-cross__item p,
+.xray-cross__item-int p,
+.xray-cross__item-com p,
+.xray-cross__security-item p,
+.largus-universal__item p,
+.largus-universal__item-back p,
+.largus-universal__item-int p,
+.largus-universal__item-com p,
+.largus-universal__item-comback p,
+.largus-universal__security-item p,
+.largus-cross__item p,
+.largus-cross__item-back p,
+.largus-cross__item-int p,
+.largus-cross__security p,
+.niva-travel__item p,
+.niva-travel__item-back p,
+.niva-travel__item-int p,
+.niva-travel__item-com p,
+.niva-travel__item-cons p,
+.niva-travel__security p,
+.niva-legend3__item p,
+.niva-legend3__item-back p,
+.niva-legend3__item-int p,
+.niva-legend3__item-com p,
+.niva-legend3__security p,
+.niva-legend5__item p,
+.niva-legend5__security p,
+.niva-bronto__item p,
+.niva-bronto__item-int p,
+.niva-bronto__item-com p,
+.niva-bronto__security p,
+.largus-universal__item p,
+.largus-furgon__item p,
+.largus-furgon__item-back p,
+.largus-furgon__item-int p,
+.largus-furgon__item-com p,
+.largus-furgon__security-item p,
+.granta-bort__item p,
+.granta-bort__item-int p,
+.granta-furgon__item p,
+.granta-furgon__item-int p,
+.granta-school__item p,
+.granta-school__item-int p,
+.granta-school__item-com p,
+.niva-furgon__item p,
+.niva-furgon__item-int p,
+.niva-bort__item p,
+.niva-bort__item-int p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.35;
+}
+.granta-sedan__item h2,
+.granta-sedan__item-back h2,
+.granta-sedan__item-int h2,
+.granta-sedan__item-com h2,
+.granta-sedan__security-item h2,
+.granta-liftbek__item h2,
+.granta-liftbek__item-back h2,
+.granta-hatchbek__item h2,
+.granta-hatchbek__item-back h2,
+.granta-universal__item h2,
+.granta-universal__item-back h2,
+.granta-cross__item h2,
+.granta-cross__item-back h2,
+.granta-cross__item-int h2,
+.granta-cross__item-com h2,
+.granta-dactive__item h2,
+.granta-dactive__item-back h2,
+.granta-dactive__item-int h2,
+.granta-dactive__item-com h2,
+.vesta-sedan__item h2,
+.vesta-sedan__item-back h2,
+.vesta-sedan__item-int h2,
+.vesta-sedan__item-com h2,
+.vesta-cross__item h2,
+.vesta-cross__item-back h2,
+.vesta-cross__item-int h2,
+.vesta-cross__item-com h2,
+.vesta-sw__item h2,
+.vesta-sw__item-back h2,
+.vesta-swcross__item h2,
+.vesta-swcross__item-back h2,
+.vesta-cng__item h2,
+.vesta-cng__item-int h2,
+.vesta-cng__item-com h2,
+.vesta-sport__item h2,
+.vesta-sport__item-back h2,
+.vesta-sport__item-int h2,
+.vesta-sport__item-com h2,
+.xray__item h2,
+.xray__item-int h2,
+.xray__item-com h2,
+.xray__security-item h2,
+.xray-cross__item h2,
+.xray-cross__item-int h2,
+.xray-cross__item-com h2,
+.xray-cross__security-item h2,
+.xray-cross__item-cons h2,
+.largus-universal__item h2,
+.largus-universal__item-back h2,
+.largus-universal__item-int h2,
+.largus-universal__item-com h2,
+.largus-universal__item-comback h2,
+.largus-universal__security-item h2,
+.largus-cross__item h2,
+.largus-cross__item-back h2,
+.largus-cross__item-int h2,
+.largus-cross__security h2,
+.niva-travel__item h2,
+.niva-travel__item-back h2,
+.niva-travel__item-int h2,
+.niva-travel__item-com h2,
+.niva-travel__item-cons h2,
+.niva-travel__security h2,
+.niva-legend3__item h2,
+.niva-legend3__item-back h2,
+.niva-legend3__item-int h2,
+.niva-legend3__item-com h2,
+.niva-legend3__security h2,
+.niva-legend5__item h2,
+.niva-legend5__security h2,
+.niva-bronto__item h2,
+.niva-bronto__item-int h2,
+.niva-bronto__item-com h2,
+.niva-bronto__security h2,
+.largus-universal__item h2,
+.largus-furgon__item h2,
+.largus-furgon__item-back h2,
+.largus-furgon__item-int h2,
+.largus-furgon__item-com h2,
+.largus-furgon__security-item h2,
+.granta-bort__item h2,
+.granta-bort__item-int h2,
+.granta-furgon__item h2,
+.granta-furgon__item-int h2,
+.granta-school__item h2,
+.granta-school__item-int h2,
+.granta-school__item-com h2,
+.niva-furgon__item h2,
+.niva-furgon__item-int h2,
+.niva-bort__item h2,
+.niva-bort__item-int h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+  white-space: pre-line;
+  max-width: 700px;
+  text-transform: uppercase;
+}
+
+.granta-sedan__security p,
+.granta-sedan__security h2,
+.granta-liftbek__security p,
+.granta-liftbek__security h2,
+.granta-hatchbek__security p,
+.granta-hatchbek__security h2,
+.granta-universal__security p,
+.granta-universal__security h2,
+.granta-cross__security p,
+.granta-cross__security h2,
+.granta-dactive__security p,
+.granta-dactive__security h2,
+.vesta-sedan__security p,
+.vesta-sedan__security h2,
+.vesta-cross__security p,
+.vesta-cross__security h2,
+.vesta-sw__security p,
+.vesta-sw__security h2,
+.vesta-swcross__security p,
+.vesta-swcross__security h2,
+.vesta-cng__security p,
+.vesta-cng__security h2,
+.vesta-sport__security p,
+.vesta-sport__security h2,
+.xray__security p,
+.xray__security h2,
+.xray-cross__security p,
+.xray-cross__security h2,
+.largus-universal__security p,
+.largus-universal__security h2,
+.largus-cross__security p,
+.largus-cross__security h2,
+.niva-travel__security p,
+.niva-travel__security h2,
+.niva-legend3__security p,
+.niva-legend3__security h2,
+.niva-legend5__security p,
+.niva-legend5__security h2,
+.niva-bronto__security p,
+.niva-bronto__security h2,
+.largus-furgon__security p,
+.largus-furgon__security h2 {
+  color: #4c5865;
+}
+.cng-g {
+  color: #969393;
+}
+
+.xray-g {
+  color: #9d9595;
+}
+
+/*      slider of exterier    */
+
+.slides {
+  position: relative;
+  display: block;
+}
+.slides input {
+  display: none;
+}
+
+.slide-container {
+  display: block;
+}
+
+.slide {
+  top: 0;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  transform: scale(0);
+  transition: all 1s;
+  /* transition: all .7s ease-in-out; */
+  padding: 40px;
+}
+
+.slide img {
+  width: 450px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.navig label {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 66%;
+  margin-left: 8%;
+}
+
+.navig label:hover {
+  color: #000;
+}
+
+.navig .next {
+  left: 56px;
+}
+
+.prev img,
+.next img {
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.prev img:hover,
+.next img:hover {
+  border: 1px solid tomato;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+input:checked + .slide-container .slide {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 1s;
+}
+
+input:checked + .slide-container .navig label {
+  display: block;
+}
+
+.my__slides-desc {
+  position: absolute;
+  left: 50px;
+  padding-top: 100px;
+  color: #fff;
+}
+.my__slides-back {
+  padding-top: 420px;
+  color: #fff;
+}
+.my__slides-desc p,
+.my__slides-back p,
+.my__slides-desc-int p,
+.my__comf-desc p {
+  color: white;
+}
+.my__slides-desc span,
+.my__slides-back span,
+.my__slides-desc-int span,
+.my__comf-desc span {
+  border-bottom: 1px solid white;
+  padding-bottom: 6px;
+}
+
+.my__slides-desc h5,
+.my__slides-back h5,
+.my__slides-desc-int h5,
+.my__comf-desc h5 {
+  margin: 27px 2px 21px;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*     slider  exterier  backview    */
+
+.back-slide {
+  margin: 35px 50px 0 35px;
+  max-width: 500px;
+}
+
+.slideshow {
+  position: relative;
+  width: 100%;
+}
+.slideshow:after {
+  content: "";
+  display: block;
+  padding-bottom: calc((100% / 6) * 4);
+}
+.slideshow a {
+  opacity: 1;
+}
+
+.slideshow a:after {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 16px;
+  color: #fff;
+  display: block;
+  height: 10px;
+  position: absolute;
+  bottom: -20%;
+  width: 10px;
+}
+
+.slideshow a:after:hover {
+  border: 1px solid tomato;
+  transition: all ease 0.5s;
+}
+.slideshow a:first-child:after {
+  content: url(../img/icon/left.svg);
+  padding: 8px 36px 36px 8px;
+}
+.slideshow a:nth-child(2):after {
+  content: url(../img/icon/right.svg);
+  padding: 8px 36px 36px 8px;
+}
+
+.slide-back {
+  box-sizing: border-box;
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.slider-back__desc {
+  position: relative;
+}
+.my__slides-back {
+  box-sizing: border-box;
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.slideshow .slide-back:first-child,
+.slideshow .slide-back:target {
+  display: block;
+}
+.slideshow .slide-back .my__slides-back:first-child,
+.slideshow .slide-back .my__slides-back:target {
+  display: block;
+}
+.slideshow .slide-back a {
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 50%;
+  z-index: 3;
+}
+
+.slideshow .slide-back a:nth-child(2) {
+  left: 12%;
+}
+
+.slideshow .slide-back img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+/*       comfort section    sliders     */
+
+.slider-int {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+}
+.slider__wrapper-int {
+  position: relative;
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+  padding: 40px 0px 20px 40px;
+  transition: all 1s;
+}
+
+.main__wrapper-int {
+  position: relative;
+  bottom: -10px;
+}
+.my__slides-desc-int {
+  position: absolute;
+  left: 43px;
+  padding-top: 100px;
+  color: #fff;
+  bottom: -200px;
+  transition: all 1s;
+}
+.xr-comf {
+  bottom: -270px;
+  max-width: 500px;
+}
+
+.main__img {
+  opacity: 1;
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+/*buttons of interier  section  slyders  */
+.button-int {
+  z-index: 100;
+  position: absolute;
+  left: 35px;
+  top: 103%;
+  display: flex;
+}
+.button__left {
+  padding: 14px;
+  border: 1px solid aliceblue;
+}
+.button__style {
+  padding: 9px;
+  border: 1px solid #fff;
+  margin: 0 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.button__style:hover {
+  border: 1px solid tomato;
+}
+
+/*     interier   */
+
+.main-of {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 32px;
+  left: 35px;
+  width: 450px;
+}
+
+.slider-of {
+  position: relative;
+}
+
+.slider-block-of {
+  position: relative;
+}
+
+.slider-item-of {
+  position: absolute;
+  width: 100%;
+  height: 460px;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: all 1s;
+}
+.slider-item__content-of {
+  position: absolute;
+  bottom: -70px;
+}
+.slider-item__content-of span {
+  border-bottom: 1px solid white;
+  padding-bottom: 6px;
+  color: white;
+}
+.slider-item__title-of,
+.slider-item__description-of {
+  color: #fff;
+  margin: 0;
+  max-width: 480px;
+  text-shadow: 2px 2px 3px #000;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.slider-item__title-of {
+  margin: 27px 0 21px;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  transform: translateY(40px);
+}
+.slider-item__description-of {
+  font-size: 16px;
+  transform: translateY(20px);
+}
+.slider-item__image-of {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.slider-item-active {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+}
+.slider-item-of .slider-item__title-of,
+.slider-item-of .slider-item__description-of {
+  transform: translateY(0);
+}
+.slider-item__title-of {
+  opacity: 1;
+}
+.slider-item__description-of {
+  opacity: 0.8;
+  transition-delay: 0.4s;
+}
+
+.slider-control-of {
+  position: absolute;
+  top: 72%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-control__arrow img {
+  padding: 9px;
+  border: 1px solid #fff;
+  margin: 0 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sedan-g {
+  color: #605d5d;
+}
+
+/*     granta sedan  security    */
+
+.largus-active.active {
+  background-color: #d9dcdc;
+}
+.granta-sec__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.furgon-w {
+  padding: 177px 0;
+}
+.granta-sec__wrapper-cons {
+  display: flex;
+  justify-content: end;
+  padding: 50px 90px 0 0;
+}
+.granta-sec__item-cons {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  padding: 10px 0 40px;
+  color: white;
+}
+.granta-sec__item-cons img {
+  margin-bottom: 10px;
+}
+.hatchbek-w {
+  padding: 100px 0;
+  margin-bottom: 130px;
+}
+.granta-sec__wrapper-item {
+  max-width: 120px;
+}
+.granta-sec__item p {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 700;
+  padding: 12px 0 57px;
+  color: #66727d;
+}
+
+/*     granta sedan  main  tabs   */
+
+.granta-tabs__main,
+.granta-liftbek-tabs__main,
+.granta-hatchbek-tabs__main,
+.granta-universal-tabs__main,
+.granta-cross-tabs__main,
+.granta-dactive-tabs__main,
+.vesta-sedan-tabs__main,
+.vesta-cross-tabs__main,
+.vesta-swcross-tabs__main,
+.vesta-sw-tabs__main,
+.vesta-cng-tabs__main,
+.vesta-sport-tabs__main,
+.xray-tabs__main,
+.xray-cross-tabs__main,
+.largus-universal-tabs__main,
+.largus-cross-tabs__main,
+.niva-travel-tabs__main,
+.niva-legend3-tabs__main,
+.niva-legend5-tabs__main,
+.niva-bronto-tabs__main,
+.largus-furgon-tabs__main,
+.granta-bort-tabs__main,
+.granta-furgon-tabs__main,
+.granta-school-tabs__main,
+.niva-furgon-tabs__main,
+.niva-bort-tabs__main {
+  position: relative;
+  background-image: url("../img/main-page-img/lada-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 70px 25px 70px 0;
+}
+.granta-liftbek-tabs__main {
+  background-image: url("../img/main-page-img/granta-liftbek.jpg");
+}
+.granta-hatchbek-tabs__main {
+  background-image: url("../img/main-page-img/granta-hatchbek.jpg");
+}
+.granta-universal-tabs__main {
+  background-image: url("../img/main-page-img/granta-universal.jpg");
+}
+.granta-cross-tabs__main {
+  background-image: url("../img/main-page-img/granta-cross.jpg");
+}
+.granta-dactive-tabs__main {
+  background-image: url("../img/main-page-img/granta-driveactive.jpg");
+}
+.vesta-sedan-tabs__main {
+  background-image: url("../img/cars/vesta-sedan/vesta-tabs-main.jpg");
+}
+.vesta-cross-tabs__main {
+  background-image: url("../img/main-page-img/vesta-cross.jpg");
+}
+.vesta-sw-tabs__main {
+  background-image: url("../img/main-page-img/vesta-sw.jpg");
+}
+
+.vesta-swcross-tabs__main {
+  background-image: url("../img/main-page-img/vesta-sw-cross.jpg");
+}
+
+.vesta-cng-tabs__main {
+  background-image: url("../img/main-page-img/vesta-cng.jpg");
+}
+.vesta-sport-tabs__main {
+  background-image: url("../img/main-page-img/vesta-sport.jpg");
+}
+.xray-tabs__main {
+  background-image: url("../img/main-page-img/xray-main.jpg");
+}
+.xray-cross-tabs__main {
+  background-image: url("../img/cars/xray-cross/xray-tabs.jpg");
+}
+.largus-universal-tabs__main {
+  background-image: url("../img/main-page-img/largus-main.jpg");
+}
+
+.largus-cross-tabs__main {
+  background-image: url("../img/cars/largus-cross/largus-tabs.jpg");
+}
+
+.niva-travel-tabs__main {
+  background-image: url("../img/main-page-img/niva-main.jpg");
+}
+
+.niva-legend3-tabs__main {
+  background-image: url("../img/cars/niva-legend3/tabs-img.jpg");
+}
+
+.niva-legend5-tabs__main {
+  background-image: url("../img/cars/niva-legend5/tabs.jpg");
+}
+
+.niva-bronto-tabs__main {
+  background-image: url("../img/cars/niva-bronto/tabs.jpg");
+}
+
+.largus-furgon-tabs__main {
+  background-image: url("../img/cars/largus-furgon/tabs.jpg");
+}
+
+.granta-bort-tabs__main {
+  background-image: url("../img/cars/granta-bort/tabs.jpg");
+}
+
+.granta-furgon-tabs__main {
+  background-image: url("../img/cars/granta-furgon/main.jpg");
+}
+
+.granta-school-tabs__main {
+  background-image: url("../img/cars/granta-school/tabs.jpg");
+}
+
+.niva-furgon-tabs__main {
+  background-image: url("../img/cars/niva-furgon/tabs.jpg");
+}
+
+.niva-bort-tabs__main {
+  background-image: url("../img/cars/niva-bort/tabs.jpg");
+}
+
+.v-green {
+  display: none;
+}
+
+/*      tabs   styles    */
+
+.granta-tabs-menu {
+  color: #fff;
+  overflow: hidden;
+}
+
+.granta-tabs {
+  width: 70%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.granta-tabs__title {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.03em;
+  max-width: 550px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.granta-tabs label,
+.granta-t_i {
+  display: block;
+  padding: 11px 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.granta-t_i {
+  max-width: 170px;
+  height: 35px;
+  text-align: center;
+}
+.bort-t {
+  max-width: 370px;
+  height: 40px;
+}
+.granta-t_i:target,
+.granta-t_i:hover {
+  transition: all ease 0.5s;
+  background: white;
+  color: #474646;
+}
+
+.granta-tabs label:hover,
+.granta-tabs label:checked,
+.granta-tabs label:target {
+  background: white;
+  color: #4c4c4c;
+}
+
+.granta-tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: block;
+  position: absolute;
+  right: -9999px;
+  padding: 1rem;
+  background: transparent;
+  color: #fff;
+}
+.tab-subtitle {
+  font-size: 25px;
+  padding: 7px 0px 7px 20px;
+  text-transform: unset;
+  border-left: 3px solid tomato;
+  margin: 12px 0 12px -7px;
+  cursor: pointer;
+}
+.tab-s__items {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 30px -15px;
+}
+.granta-tabs__item {
+  margin: 26px 0;
+  padding-left: 10px;
+  color: #fff;
+  border-left: 4px solid tomato;
+  font-weight: 600;
+}
+
+.granta-tabs__price {
+  color: #e37639;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 40px 0;
+}
+
+.granta-tabs input[type="radio"] {
+  display: none;
+}
+
+.granta-tabs input[type="radio"]:checked + label {
+  background: white;
+  color: #4c4c4c;
+}
+
+.granta-tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+  position: relative;
+  right: 0px;
+  transition: 0.3s ease;
+}
+
+/*     section  color  of   cars   */
+
+.color-main {
+  background-color: white;
+  padding: 70px 0;
+}
+
+.color-wrapper {
+  position: relative;
+}
+
+.color-rounds {
+  display: flex;
+  max-width: 710px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.vestac-rounds {
+  max-width: 200px;
+}
+.vs-sport-color {
+  max-width: 440px;
+}
+.color-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.color-content__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #4c5865;
+  display: block;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.color-content span {
+  color: #848e98;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.color-rounds__item {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scale(1);
+  box-shadow: 0 0 1px #555;
+}
+.color-rounds__item span {
+  color: transparent;
+  user-select: none;
+}
+.hidden {
+  display: none;
+}
+.gold {
+  background-color: #f37001;
+}
+.red {
+  background-color: #860e02;
+}
+.blue {
+  background-color: #016af9;
+}
+.grey {
+  background-color: #cad5cd;
+}
+.darkgrey {
+  background-color: #bababa;
+}
+.darkgreen {
+  background-color: #444e4e;
+}
+.brown {
+  background-color: #706c62;
+}
+.whitecar {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.fist {
+  background-color: #a8b9a0;
+}
+.bejeviy {
+  background-color: #986f59;
+}
+.whitesmoke {
+  background-color: #e8f0f2;
+}
+.orange {
+  background-color: #f37001;
+}
+.color-rounds__item:hover {
+  transition: all ease 0.6s;
+  transform: scale(1.4);
+}
+.color__title {
+  color: #4c5865;
+  font-weight: 300;
+  font-size: 48px;
+  letter-spacing: 0.03em;
+  max-width: 490px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/*    section  motors    */
+
+.motor {
+  width: 100%;
+}
+
+.tabs-motor {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tab-motor {
+  font-size: 16px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background: transparent;
+  color: white;
+  margin: 0 10px;
+}
+
+.tab-motor.act {
+  background-color: white;
+  color: #595757;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.content-motor {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.content-motor__item {
+  display: none;
+  padding: 50px;
+}
+
+.content-motor__item.act {
+  display: flex;
+  justify-content: center;
+}
+.motors-wrapper {
+  background: linear-gradient(90deg, #3a3a3a 50%, #221f20 0);
+  padding: 50px;
+}
+.motors-item {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.motors-item img {
+  width: 100%;
+  max-height: 520px;
+}
+.motors-desc {
+  max-width: 50%;
+  padding-left: 50px;
+}
+.span-motor {
+  font-size: 36px;
+  border-bottom: 1px solid #676767;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+.motors-desc p,
+.motor-s__item p {
+  color: white;
+  padding-bottom: 40px;
+  line-height: 1.3;
+}
+.motor-s__item p {
+  font-weight: 600;
+}
+.motors-title {
+  font-size: 48px;
+  letter-spacing: 0.03em;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.motor-subdesc {
+  display: flex;
+  justify-content: space-between;
+}
+.motor-s__item span {
+  color: #848e98;
+  padding-bottom: 9px;
+  display: block;
+}
+
+/*      technik   section    */
+
+.technik {
+  padding: 80px 0;
+}
+.technik .color__title {
+  max-width: 100%;
+}
+.technik-wrapper {
+  display: flex;
+  padding-top: 80px;
+}
+.technik-info {
+  display: flex;
+  border-bottom: 1px solid grey;
+  color: #4c5865;
+  padding-top: 60px;
+}
+
+.styles_table__wNHoO {
+  border-collapse: collapse;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 70px;
+}
+.info-items {
+  margin-left: 80px;
+}
+.info-items__subtitle {
+  padding-bottom: 15px;
+  padding-right: 80px;
+}
+tr {
+  font-size: 16px;
+  line-height: 21px;
+  color: #66727d;
+}
+.styles_table__wNHoO tr:first-of-type td {
+  border-top: none;
+  padding-right: 100px;
+}
+
+.styles_titleRow__2_UMj {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 12px;
+  max-width: 224px;
+  color: #4c5865;
+}
+.styles_table__wNHoO tr:last-of-type td {
+  border-bottom: 1px solid #a6adb5;
+}
+.styles_table__wNHoO td:nth-of-type(2) {
+  border-left: 1px solid #a6adb5;
+}
+.styles_table__wNHoO .styles_opacityNew__1acss {
+  opacity: 0;
+}
+.styles_table__wNHoO .styles_bordersRow__3c_8J {
+  border-top: 1px dashed #a6adb5;
+}
+
+/*       form    section    */
+
+.form-wrapper {
+  display: flex;
+}
+.form-item {
+  padding: 60px;
+  background: #8080801a;
+  width: 60%;
+}
+.form-item .color__title {
+  max-width: 100%;
+  font-size: 35px;
+}
+.input-info input {
+  outline: none;
+  height: 48px;
+  width: 90%;
+  padding: 20px 17px;
+  background-color: #fff;
+  border: 0;
+  border-bottom: 1px solid #d9dcdc;
+  font-size: 15px;
+  border-radius: 0;
+  margin-bottom: 18px;
+}
+.input-info {
+  display: flex;
+  margin-top: 30px;
+  border: none;
+}
+.first-info,
+.second-info {
+  width: 50%;
+}
+.checkbox-main {
+  display: flex;
+  margin-top: 25px;
+}
+.checkbox-info a {
+  color: tomato;
+}
+.checkbox-info {
+  color: #a6adb5;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-left: 13px;
+  user-select: none;
+  cursor: pointer;
+}
+.submit {
+  cursor: pointer;
+  height: 40px;
+  display: inline-block;
+  border-radius: 17px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 9px 33px;
+  border: 0;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 16px;
+  color: #fff;
+  background: grey;
+  margin: 20px 0px 0px 25px;
+}
+.submit:hover {
+  background: #808080a8;
+  transition: all ease 0.6s;
+}
+
+.trade {
+  padding: 120px 0 40px;
+  border-bottom: 1px solid grey;
+}
+
+/*     kovrik   styles    */
+
+.kovrik {
+  background-image: url("../img/cars/granta-sedan/kovrik.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+  color: white;
+  padding: 44px 0;
+}
+.kovrik-title {
+  font-size: 35px;
+}
+.kovrik-desc {
+  max-width: 480px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 16px;
+  color: white;
+}
+.kovrik ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 16px;
+  border-left: 1px solid tomato;
+  margin-bottom: 6px;
+}
+
+/*     section   for more   */
+
+.for-more {
+  padding: 90px 0;
+}
+.for-more__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+.for-more .color__title {
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+.for-more__item {
+  max-width: 32%;
+  position: relative;
+}
+.for-more__desc {
+  position: absolute;
+  bottom: -58px;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  height: 111px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  padding-left: 24px;
+  z-index: 2;
+}
+
+.for-more__desc::before {
+  content: "";
+  position: absolute;
+  background: -webkit-linear-gradient(left, #d87e40, #e7a94e 97.27%);
+  background: linear-gradient(90deg, #d87e40, #e7a94e 97.27%);
+  bottom: -20px;
+  left: -10px;
+  right: -10px;
+  top: 0;
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.for-more__desc p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  width: 100%;
+  padding-right: 50px;
+  z-index: 1;
+  color: white;
+}
+
+/*     cng    aksiya    */
+
+.aksiya-cng {
+  background-image: url("../img/cars/vesta-cng/vestacng-aksiya.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  color: white;
+}
+.aksiya-cng__title {
+  padding-top: 30px;
+  text-transform: uppercase;
+  max-width: 470px;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+.aksiya-wrapper {
+  width: 320px;
+  background: rgba(38, 38, 38, 0.6);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin-top: 15em;
+  padding: 28px 25px;
+  border-radius: 3px;
+}
+.aksiya-wrapper:hover {
+  background: linear-gradient(90deg, #d87e40, #e7a94e);
+  transition: all ease 0.6s;
+}
+.aksiya-wrapper p {
+  color: white;
+  line-height: 1.2;
+}
+.aksiya-desc {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.aksiya-wrapper a {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  color: white;
+  padding-top: 70px;
+  padding-right: 10px;
+}
+.aksiya-more {
+  display: flex;
+  align-items: baseline;
+}
+.aksiya-more span {
+  border: 1px solid white;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+
+/*      vesta  sedan    */
+
+.vesta-submain__image {
+  position: absolute;
+  bottom: 100px;
+  right: 88px;
+}
+
+/*     technologies   styles    start    */
+
+.tech-video {
+  margin-top: 100px;
+}
+.technologie-desc {
+  left: 6em;
+  bottom: 120px;
+}
+
+.technologie-title {
+  max-width: 300px;
+}
+.t-video__title {
+  font-size: 36px;
+  color: #4c5865;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+.t-video__desc {
+  font-size: 16px;
+  line-height: 21px;
+  color: #66727d;
+  margin-bottom: 18px;
+}
+
+.video-tabs {
+  margin: 50px 0;
+}
+
+.video-tabs__main {
+  font-size: 16px;
+  color: grey;
+  width: 190px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #58565663;
+  border-radius: 10px;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.video-tabs__item {
+  padding: 15px;
+  color: grey;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 2px 0;
+}
+.video-tabs__item:hover,
+.video-tabs__item.active {
+  background: #8080806b;
+  transition: ease 0.5s;
+}
+.video-tabs__main:hover {
+  color: #e37639;
+  transition: all ease 0.6s;
+}
+
+.technologies-news {
+  background-image: url("../img/technologies-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.technologies-news p {
+  font-size: 28px;
+  max-width: 475px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  padding-top: 76px;
+  padding-bottom: 50px;
+}
+
+.videos-item,
+.videos-item2,
+.videos-item3,
+.videos-item4,
+.videos-item5,
+.videos-item6,
+.videos-item7,
+.videos-item8,
+.videos-item9 {
+  height: 300px;
+  max-width: 420px;
+  width: 100%;
+  background-image: url("../video/dvigatel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.videos-item2 {
+  background-image: url("../video/shatnaya.jpg");
+}
+.videos-item3 {
+  background-image: url("../video/enjoy.jpg");
+}
+.videos-item4 {
+  background-image: url("../video/klimat.jpg");
+}
+.videos-item5 {
+  background-image: url("../video/salon.jpg");
+}
+
+.videos-item6 {
+  background-image: url("../video/podveska.jpg");
+}
+
+.videos-item7 {
+  background-image: url("../video/ride.jpg");
+}
+
+.videos-item8 {
+  background-image: url("../video/connect.jpg");
+}
+.videos-item9 {
+  background-image: url("../video/elektro.jpg");
+}
+.videos-item__desc {
+  position: absolute;
+  bottom: 20px;
+  left: 23px;
+}
+
+.videos-item__desc p {
+  color: white;
+}
+.play-video {
+  position: absolute;
+  left: 41%;
+  bottom: 41%;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  border-radius: 50%;
+  padding: 24px;
+}
+.videos-item:hover .play-video,
+.videos-item2:hover .play-video,
+.videos-item3:hover .play-video,
+.videos-item4:hover .play-video,
+.videos-item5:hover .play-video,
+.videos-item6:hover .play-video,
+.videos-item7:hover .play-video,
+.videos-item8:hover .play-video,
+.videos-item9:hover .play-video {
+  transition: all ease 0.5s;
+  padding: 28px;
+  left: 39%;
+}
+
+.overlay {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 76%);
+  z-index: 20;
+  transition: 0.3s all;
+}
+
+/* Стили для модальных окон */
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  max-width: 720px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  text-align: center;
+  padding: 40px;
+  border-radius: 3px;
+  transition: 0.3s all;
+}
+
+/* Стили для активных классов подложки и окна */
+
+.modal.showmodal,
+.overlay.showmodal {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Стили для кнопки закрытия */
+
+.modal__cross {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: #f46708;
+  cursor: pointer;
+}
+
+.modal__cross:hover {
+  fill: white;
+  transition: all ease 0.5s;
+}
+
+/*                 new or old   styles        */
+
+.newold {
+  padding: 100px 0 40px;
+  background: #f7f8f8;
+}
+
+.newold-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.newold-item {
+  width: 33%;
+  padding: 40px 30px;
+  border: 1px solid #eaefef;
+  background-color: white;
+}
+.newold-item p {
+  line-height: 1.4;
+}
+.newold-item img {
+  padding-bottom: 30px;
+}
+.newold-item a {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  color: #e6873b;
+}
+
+.experts {
+  padding-top: 50px;
+}
+
+/*       insurance   page   styles    */
+
+.ins-wrapper {
+  padding: 30px 0 50px;
+}
+.ins-wrapper li {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #4c5865;
+  margin-top: 25px;
+  padding-left: 25px;
+  border-left: 3px solid tomato;
+}
+
+/*                 korporat klients   page  styles    */
+
+.korporat-wrapper {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+}
+.korporat-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.korporat-subitem {
+  width: 46%;
+}
+
+.korporat-subbanner,
+.korporat-vidy__subbanner,
+.korporat-vidy__subbanner2,
+.become-korporat {
+  background-image: url("../img/cars/largus-furgon/lf-main.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  position: relative;
+}
+.korporat-vidy__subbanner {
+  background-image: url("../video/leasing.jpg");
+  width: 50%;
+}
+.korporat-vidy__subbanner2 {
+  background-image: url("../video/taxi.jpg");
+  width: 50%;
+}
+.become-korporat {
+  background-image: url("../video/become-korporat.jpg");
+  margin: 20px 0 50px;
+  color: #4c5865;
+}
+.korporat-s__info {
+  position: absolute;
+  right: 70px;
+  top: 28%;
+}
+.korporat-s__title {
+  max-width: 522px;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 30px;
+}
+.korporat-s__desc {
+  max-width: 522px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.korporat-vidy {
+  display: flex;
+}
+.korporat-vidy a {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 1.4;
+  color: #e6873b;
+}
